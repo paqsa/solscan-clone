@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cardContentBackground {
+    width: 377px;
+    height: 290px;
+    background-color: #282828;
+    text-align: start;
+    display: flex;
+    border-radius: 13px;
+    border: 1px solid #e5e7eb29;
+}
+
+.ContentContainer {
+    padding: 20px;
+    width: 100%;
+}
+
+.contentInfo {
+    background-color: #1A1A1A;
+
+}

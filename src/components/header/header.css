@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.SolanaPhoto {
+    width: 10px;
+    height: 10px;
+}
+
+.displayFlex {
+    display: flex;
+    align-items: center;
+}

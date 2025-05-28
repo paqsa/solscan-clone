@@ -1,0 +1,12 @@
+.solanaPhotoTopMarkets {
+    width: 10px;
+}
+
+.topMarketsContent {
+    display: flex;
+    align-items: center;
+}
+
+.USDC-SOL {
+    font-size: 10px;
+}
