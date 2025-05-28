@@ -20,6 +20,7 @@
     border-radius: 13px;
     border: 1px solid #e5e7eb29;
     margin-top: 20px;
+    min-width: 689px;
 }
 
 .containerInformation {
@@ -28,16 +29,18 @@
 
 .signatureContent {
     width: 205px;
-    background-color: #857777;
     margin-left: 10px;
 }
 
 .timeContent {
     width: 116px;
-    background-color: #857777;
 }
 
 .blockContent {
     width: 117px;
-    background-color: #857777;
+}
+
+.signature-content {
+    padding: 7px 0px 7px 0px;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.741);
 }

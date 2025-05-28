@@ -5,8 +5,8 @@
 }
 
 .cardContentBackground {
-    width: 377px;
-    height: 290px;
+    min-width: 337px;
+    height: 285px;
     background-color: #282828;
     text-align: start;
     display: flex;

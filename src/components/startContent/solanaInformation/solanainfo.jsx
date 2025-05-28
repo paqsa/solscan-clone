@@ -3,6 +3,7 @@ import SolNetwork from "../startContents/network";
 import SolEpoch from "../startContents/currentEpoch";
 import SolStake from "../startContents/stake"
 import SolanaLatest from "../../latestTransactions/transactionsLatest"
+import DefiDashboard from "../../defiDashboard/defi"
 import "./solanainfo.css"
 
 
@@ -18,7 +19,10 @@ export default function solanainfo() {
             <SolStake></SolStake>
         </div>
 
-        <SolanaLatest></SolanaLatest>
+        <div className="solanaLatestClass">
+            <SolanaLatest></SolanaLatest>
+            <DefiDashboard></DefiDashboard>
+        </div>
         </>
     )
 }

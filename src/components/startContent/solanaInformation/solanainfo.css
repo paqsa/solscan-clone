@@ -1,4 +1,11 @@
 .solanaInformationContent {
     display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.solanaLatestClass {
+    display: flex;
+    justify-content: center;
     gap: 15px;
 }
