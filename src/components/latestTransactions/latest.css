@@ -1,0 +1,43 @@
+.displayFlex {
+    display: flex;
+}
+
+.signature {
+    width: 239px;
+}
+
+.time {
+    width: 117px;
+}
+
+.block {
+    width: 117px;
+}
+
+.transactionsInformation {
+    background-color: #282828;
+    text-align: start;
+    border-radius: 13px;
+    border: 1px solid #e5e7eb29;
+    margin-top: 20px;
+}
+
+.containerInformation {
+    padding: 20px;
+}
+
+.signatureContent {
+    width: 205px;
+    background-color: #857777;
+    margin-left: 10px;
+}
+
+.timeContent {
+    width: 116px;
+    background-color: #857777;
+}
+
+.blockContent {
+    width: 117px;
+    background-color: #857777;
+}
