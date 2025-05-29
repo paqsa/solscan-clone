@@ -4,6 +4,7 @@ import SolEpoch from "../startContents/currentEpoch";
 import SolStake from "../startContents/stake"
 import SolanaLatest from "../../latestTransactions/transactionsLatest"
 import DefiDashboard from "../../defiDashboard/defi"
+import TokenDashboard from "../../latestTransactions/tokenDashboard/dashboardToken"
 import "./solanainfo.css"
 
 
@@ -22,7 +23,7 @@ export default function solanainfo() {
         <div className="solanaLatestClass">
             <div>
                 <SolanaLatest></SolanaLatest>
-                
+                <TokenDashboard></TokenDashboard>
             </div>
             <DefiDashboard></DefiDashboard>
         </div>
