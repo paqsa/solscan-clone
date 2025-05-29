@@ -80,8 +80,8 @@ const DeFiStackedBarChart = () => {
   };
 
   return (
-    <div style={{ width: '1400px', backgroundColor: '#1e1e1e', padding: '20px', borderRadius: '12px' }}>
-  <Bar data={data} options={options} />
+    <div style={{ width: 'auto', backgroundColor: '#1e1e1e', padding: '20px', borderRadius: '12px' }}>
+  <Bar style={{height: 'auto'}} data={data} options={options} />
 </div>
 
   );
