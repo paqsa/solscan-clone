@@ -15,17 +15,59 @@ export default function tokenDashboard() {
                     <p className="marketWidth">Market Cap (F.D)</p>
                 </div>
 
-                <div>
-                    <div>
-                        <img src={trumpPhoto} alt="" />
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
+                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
                         <p>OFFICIAL TRUMP</p>
 
                     </div>
-
-                    <p>TRUMP</p>
-                    <p>$12.51 <span>-1.69%</span></p>
+                    <p style={{width: '120px'}}>TRUMP</p>
+                    <p style={{width: '178px'}}>$12.51 <span>-1.69%</span></p>
                     <p>$12,489,992,520</p>
+                </div>
 
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
+                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <p>OFFICIAL TRUMP</p>
+
+                    </div>
+                    <p style={{width: '120px'}}>TRUMP</p>
+                    <p style={{width: '178px'}}>$12.51 <span>-1.69%</span></p>
+                    <p>$12,489,992,520</p>
+                </div>
+
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
+                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <p>OFFICIAL TRUMP</p>
+
+                    </div>
+                    <p style={{width: '120px'}}>TRUMP</p>
+                    <p style={{width: '178px'}}>$12.51 <span>-1.69%</span></p>
+                    <p>$12,489,992,520</p>
+                </div>
+
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
+                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <p>OFFICIAL TRUMP</p>
+
+                    </div>
+                    <p style={{width: '120px'}}>TRUMP</p>
+                    <p style={{width: '178px'}}>$12.51 <span>-1.69%</span></p>
+                    <p>$12,489,992,520</p>
+                </div>
+
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
+                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <p>OFFICIAL TRUMP</p>
+
+                    </div>
+                    <p style={{width: '120px'}}>TRUMP</p>
+                    <p style={{width: '178px'}}>$12.51 <span>-1.69%</span></p>
+                    <p>$12,489,992,520</p>
                 </div>
             </div>
         </div>

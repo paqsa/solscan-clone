@@ -7,11 +7,11 @@
 }
 
 .symbolWidth {
-    min-width: 92px;
+    min-width: 120px;
 }
 
 .priceWidth {
-    min-width: 218px;
+    min-width: 178px;
 }
 
 .tokenDashboard {
@@ -21,4 +21,10 @@
     border: 1px solid #e5e7eb29;
     margin-top: 20px;
     min-width: 689px;
+}
+
+.imageDashboardToken {
+    width: 30px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 10px;
 }
