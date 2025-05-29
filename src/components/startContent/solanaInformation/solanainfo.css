@@ -9,3 +9,8 @@
     justify-content: center;
     gap: 15px;
 }
+
+.TPS {
+    display: flex;
+    justify-content: center;
+}
