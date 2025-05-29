@@ -15,7 +15,7 @@ export default function tokenDashboard() {
                     <p className="marketWidth">Market Cap (F.D)</p>
                 </div>
 
-                <div style={{display: 'flex', alignItems: 'center'}}>
+                <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
                         <img className="imageDashboardToken" src={trumpPhoto} alt="" />
                         <p>OFFICIAL TRUMP</p>
@@ -26,10 +26,10 @@ export default function tokenDashboard() {
                     <p>$12,489,992,520</p>
                 </div>
 
-                <div style={{display: 'flex', alignItems: 'center'}}>
+                <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
                         <img className="imageDashboardToken" src={trumpPhoto} alt="" />
-                        <p>OFFICIAL TRUMP</p>
+                        <p>USDC</p>
 
                     </div>
                     <p style={{width: '120px'}}>TRUMP</p>
@@ -37,10 +37,10 @@ export default function tokenDashboard() {
                     <p>$12,489,992,520</p>
                 </div>
 
-                <div style={{display: 'flex', alignItems: 'center'}}>
+                <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
                         <img className="imageDashboardToken" src={trumpPhoto} alt="" />
-                        <p>OFFICIAL TRUMP</p>
+                        <p>Jupiter</p>
 
                     </div>
                     <p style={{width: '120px'}}>TRUMP</p>
@@ -48,10 +48,10 @@ export default function tokenDashboard() {
                     <p>$12,489,992,520</p>
                 </div>
 
-                <div style={{display: 'flex', alignItems: 'center'}}>
+                <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
                         <img className="imageDashboardToken" src={trumpPhoto} alt="" />
-                        <p>OFFICIAL TRUMP</p>
+                        <p>Wrapped Sol</p>
 
                     </div>
                     <p style={{width: '120px'}}>TRUMP</p>
@@ -59,10 +59,10 @@ export default function tokenDashboard() {
                     <p>$12,489,992,520</p>
                 </div>
 
-                <div style={{display: 'flex', alignItems: 'center'}}>
+                <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
                         <img className="imageDashboardToken" src={trumpPhoto} alt="" />
-                        <p>OFFICIAL TRUMP</p>
+                        <p>USDT</p>
 
                     </div>
                     <p style={{width: '120px'}}>TRUMP</p>
