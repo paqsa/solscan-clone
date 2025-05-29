@@ -5,7 +5,9 @@ export default function defiDashboard() {
     
     return (
         <div className="defiDashboardContent">
-            <p>Defi Dashboard</p>
+            <div className="defiDashboard">
+                <p>Defi Dashboard</p>
+            </div>
             
         </div>
         
