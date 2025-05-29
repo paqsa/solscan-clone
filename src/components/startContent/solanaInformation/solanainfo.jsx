@@ -20,7 +20,10 @@ export default function solanainfo() {
         </div>
 
         <div className="solanaLatestClass">
-            <SolanaLatest></SolanaLatest>
+            <div>
+                <SolanaLatest></SolanaLatest>
+                
+            </div>
             <DefiDashboard></DefiDashboard>
         </div>
         </>
