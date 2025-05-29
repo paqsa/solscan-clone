@@ -1,5 +1,6 @@
 import "./defi.css";
 import DefiChart from "./defiChart"
+import VolumeInformation from "./volumeinfo"
 
 export default function defiDashboard() {
     
@@ -19,6 +20,7 @@ export default function defiDashboard() {
 
                 <div>
                     <p>Top Defi Protocols by Volume</p>
+                    <VolumeInformation></VolumeInformation>
                 </div>
 
 
