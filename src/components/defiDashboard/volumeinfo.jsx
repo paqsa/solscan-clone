@@ -35,9 +35,9 @@ export default function volumeInfo() {
                         <p>Jupiter</p>
                     </div>
 
-                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+                    <p className="volume24H">$3,161,730,000 <span>( 9.84 % )</span></p>
 
-                    <p>18,033,251 <span>( 32.76% )</span></p>
+                    <p>7,594,089 <span>( 32.76% )</span></p>
                 </div>
 
                 <div className="volumeInformationSection padding-volume">
@@ -46,9 +46,9 @@ export default function volumeInfo() {
                         <p>Raydium</p>
                     </div>
 
-                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+                    <p className="volume24H">$892,947,700 <span>( 32.18 % )</span></p>
 
-                    <p>18,033,251 <span>( 32.76% )</span></p>
+                    <p>9,168,210 <span>( 32.76% )</span></p>
                 </div>
 
                 <div className="volumeInformationSection padding-volume">
@@ -57,9 +57,9 @@ export default function volumeInfo() {
                         <p>Orcca</p>
                     </div>
 
-                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+                    <p className="volume24H">$436,922,620 <span>( 25.96 % )</span></p>
 
-                    <p>18,033,251 <span>( 32.76% )</span></p>
+                    <p>876,188 <span>( 32.76% )</span></p>
                 </div>
 
                 <div className="volumeInformationSection padding-volume">
@@ -68,9 +68,9 @@ export default function volumeInfo() {
                         <p>Meteora</p>
                     </div>
 
-                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+                    <p className="volume24H">$400,608,200 <span>( 20.73 % )</span></p>
 
-                    <p>18,033,251 <span>( 32.76% )</span></p>
+                    <p>1,777,934 <span>( 32.76% )</span></p>
                 </div>
             </div>
         </div>
