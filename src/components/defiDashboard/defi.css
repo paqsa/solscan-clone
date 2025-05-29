@@ -10,3 +10,7 @@
 .defiDashboard {
     padding: 15px;
 }
+
+.firstContentOfDefi {
+    display: flex;
+}
