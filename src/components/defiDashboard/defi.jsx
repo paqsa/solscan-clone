@@ -10,7 +10,7 @@ export default function defiDashboard() {
                 <div className="firstContentOfDefi">
                     <p>Defi Dashboard</p>
 
-                    <p>Visit Dashboard</p>
+                    <p className="visitDashboard">Visit Dashboard</p>
                 </div>
 
                 <div className="defiChart"> 

@@ -14,3 +14,10 @@
 .firstContentOfDefi {
     display: flex;
 }
+
+.visitDashboard {
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
