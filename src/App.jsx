@@ -20,6 +20,10 @@ function App() {
           <Header></Header>
           <Explore></Explore>
 
+      
+
+      </div>
+       </div>
       <div className='topMarketsContainer'>
         {topMarketsNumber.map((topMarketsNumber) => {
           return(
@@ -31,9 +35,7 @@ function App() {
         })}
       </div>
 
-      </div>
-       </div>
-      
+
       <SolanaInformation></SolanaInformation>
        
     </div>

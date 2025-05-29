@@ -1,0 +1,16 @@
+.exploreContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.inputExplore {
+    width: 800px;
+    height: 49px;
+    font-size: 13px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 9px;
+}
