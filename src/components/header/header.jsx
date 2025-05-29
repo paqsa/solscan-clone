@@ -7,14 +7,14 @@ export default function header() {
             <div className="displayFlex">
                 <h1>SOLSCAN</h1>
 
-                <div className="displayFlex"> 
+                <div className="displayFlex headerStyle"> 
                     <div className="displayFlex">
                         <img className="SolanaPhoto" src={SolanaPhoto} alt="" />
-                        <p>$176.75 <span>+1.08%</span></p>
+                        <p>$176.75 <span className="procentColor">+1.08%</span></p>
                     </div>
                     
                     <div>
-                        <p>Avg Fee: <span>0.00001236</span></p>
+                        <p>Avg Fee: <span className="solFeeColor">0.00001236</span></p>
                     </div>
                 </div>
             </div>

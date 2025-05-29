@@ -19,7 +19,7 @@ const DeFiStackedBarChart = () => {
     datasets: [
       {
         label: 'Protocol A',
-        data: [605.5, 605, 432.8, 533.2, 643.4, 543.6, 653.3, 653.5, 653.5, 653.5, 343.5, 543.5, 433.5, 443.5, 553.5, 443.5, 643.5, 543.5, 323.5, 433.5, 433.5, 343.5],
+      data: [305.5, 305, 332.8, 333.2, 343.4, 343.6, 353.3, 353.5, 353.5, 353.5, 343.5, 343.5, 333.5, 343.5, 353.5, 343.5, 343.5, 343.5, 323.5, 333.5, 333.5, 343.5],
         backgroundColor: '#A2DFF7',
       },
     ],
@@ -45,17 +45,21 @@ const DeFiStackedBarChart = () => {
       },
       y: {
         stacked: true,
+        min: 0,
+        max: 100,
         ticks: {
           color: 'white',
+          stepSize: 10,
           callback: (value) => `${value}`,
         },
         grid: { color: '#444' },
+        
       },
     },
   };
 
   return (
-    <div style={{ width: '1000px', backgroundColor: '#1e1e1e', padding: '20px', borderRadius: '12px' }}>
+    <div style={{ maxWidth: '1000px', height: '400px', backgroundColor: '#1e1e1e', padding: '20px', borderRadius: '12px' }}>
   <Bar data={data} options={options} />
 </div>
 

@@ -21,7 +21,7 @@ export default function tokenDashboard() {
 
                 <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
-                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <img className="imageDashboardToken" src={trumpPhoto    } alt="" />
                         <p>OFFICIAL TRUMP</p>
 
                     </div>
