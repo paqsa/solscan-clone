@@ -9,3 +9,21 @@
 .volumeInfoStart {
     display: flex;
 }
+
+.volumeInformationSection {
+    display: flex;
+    align-items: center;
+}
+
+.AMM-width {
+    min-width: 163px;
+}
+
+.volumePhoto {
+    width: 24px;
+}
+
+.padding-volume {
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.741);
+}

@@ -18,8 +18,59 @@ export default function volumeInfo() {
                     <p>Total Txs 24H</p>
                 </div>
 
-                <div>
+                <div className="volumeInformationSection padding-volume">
+                    <div className="volumeInformationSection AMM-width">
+                        <img className="volumePhoto" src={PumpfunPhoto} alt="" />
+                        <p>PumpFun</p>
+                    </div>
 
+                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+
+                    <p>18,033,251 <span>( 32.76% )</span></p>
+                </div>
+
+                <div className="volumeInformationSection padding-volume">
+                    <div className="volumeInformationSection AMM-width">
+                        <img className="volumePhoto" src={JupiterPhoto} alt="" />
+                        <p>Jupiter</p>
+                    </div>
+
+                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+
+                    <p>18,033,251 <span>( 32.76% )</span></p>
+                </div>
+
+                <div className="volumeInformationSection padding-volume">
+                    <div className="volumeInformationSection AMM-width">
+                        <img className="volumePhoto" src={RaydiumPhoto} alt="" />
+                        <p>Raydium</p>
+                    </div>
+
+                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+
+                    <p>18,033,251 <span>( 32.76% )</span></p>
+                </div>
+
+                <div className="volumeInformationSection padding-volume">
+                    <div className="volumeInformationSection AMM-width">
+                        <img className="volumePhoto" src={OrcaPhoto} alt="" />
+                        <p>Orcca</p>
+                    </div>
+
+                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+
+                    <p>18,033,251 <span>( 32.76% )</span></p>
+                </div>
+
+                <div className="volumeInformationSection padding-volume">
+                    <div className="volumeInformationSection AMM-width">
+                        <img className="volumePhoto" src={MeteoraPhoto} alt="" />
+                        <p>Meteora</p>
+                    </div>
+
+                    <p className="volume24H">$3,905,467,600 <span>( 67.64 % )</span></p>
+
+                    <p>18,033,251 <span>( 32.76% )</span></p>
                 </div>
             </div>
         </div>
