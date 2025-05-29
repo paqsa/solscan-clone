@@ -24,7 +24,7 @@ const DeFiStackedBarChart = () => {
       },
       {
         label: 'Protocol B',
-        data: [1.2, 1.0, 0.9, 1.0, 1.3, 2.1, 3.8, 10, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1,],
+        data: [1.2, 1.0, 0.9, 1.0, 1.3, 2.1, 3.8, 1.3, 2.1, 2.1, 1.4, 2.1, 4.1, 3.2, 3.1, 2.1, 1.1, 2.1, 2.1, 2.1, 2.1, 2.1,],
         backgroundColor: '#61C47A',
       },
     ],
@@ -60,7 +60,7 @@ const DeFiStackedBarChart = () => {
   };
 
   return (
-    <div style={{ width: '1400px', backgroundColor: '#1e1e1e', padding: '20px', borderRadius: '12px' }}>
+    <div style={{ width: '1000px', backgroundColor: '#1e1e1e', padding: '20px', borderRadius: '12px' }}>
   <Bar data={data} options={options} />
 </div>
 
