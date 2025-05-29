@@ -10,7 +10,14 @@
     gap: 15px;
 }
 
-.TPS {
+.TPSInformation {
     display: flex;
     justify-content: center;
+}
+
+.trueTpsInfo {
+    background-color: #282828;
+    margin-top: 20px;
+    border-radius: 13px;
+    border: 1px solid #e5e7eb29;
 }

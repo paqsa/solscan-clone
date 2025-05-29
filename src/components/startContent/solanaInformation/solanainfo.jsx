@@ -5,7 +5,7 @@ import SolStake from "../startContents/stake"
 import SolanaLatest from "../../latestTransactions/transactionsLatest"
 import DefiDashboard from "../../defiDashboard/defi"
 import TokenDashboard from "../../latestTransactions/tokenDashboard/dashboardToken"
-import TrueTPS from "../../TPS/truetps"
+import TrueTPS from "./trueTps"
 import "./solanainfo.css"
 
 
@@ -29,9 +29,11 @@ export default function solanainfo() {
             <DefiDashboard></DefiDashboard>
         </div>
 
-        <div className="TPS">
+        <div className="TPSInformation">
             <TrueTPS></TrueTPS>
         </div>
+
+
         </>
     )
 }
