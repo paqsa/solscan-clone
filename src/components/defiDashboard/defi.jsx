@@ -1,5 +1,5 @@
 import "./defi.css";
-
+import DefiChart from "./defiChart"
 
 export default function defiDashboard() {
     
@@ -14,7 +14,7 @@ export default function defiDashboard() {
                 </div>
 
                 <div className="defiChart"> 
-
+                    <DefiChart></DefiChart>
                 </div>
 
                 <div>
