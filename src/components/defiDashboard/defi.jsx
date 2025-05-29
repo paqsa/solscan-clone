@@ -17,6 +17,10 @@ export default function defiDashboard() {
 
                 </div>
 
+                <div>
+                    <p>Top Defi Protocols by Volume</p>
+                </div>
+
 
             </div>
             
