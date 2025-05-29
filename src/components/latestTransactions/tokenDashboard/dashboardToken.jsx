@@ -7,11 +7,11 @@ export default function tokenDashboard() {
 
                 <p>Token Dashboard</p>
 
-                <div>
-                    <p>Token</p>
-                    <p>Symbol</p>
-                    <p>Price</p>
-                    <p>Market Cap (F.D)</p>
+                <div style={{display: 'flex'}}>
+                    <p className="tokenWidth">Token</p>
+                    <p className="symbolWidth">Symbol</p>
+                    <p className="priceWidth">Price</p>
+                    <p className="marketWidth">Market Cap (F.D)</p>
                 </div>
             </div>
         </div>

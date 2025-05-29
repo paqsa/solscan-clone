@@ -1,0 +1,19 @@
+.tokenContent {
+    padding: 15px;
+}
+
+.tokenWidth {
+    min-width: 223px;
+}
+
+.symbolWidth {
+    min-width: 92px;
+}
+
+.priceWidth {
+    min-width: 218px;
+}
+
+.marketWidth {
+
+}
