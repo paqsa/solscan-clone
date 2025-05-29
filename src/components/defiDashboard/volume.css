@@ -1,0 +1,11 @@
+.AMM {
+    min-width: 163px;
+}
+
+.volume24H {
+    min-width: 312px;
+}
+
+.volumeInfoStart {
+    display: flex;
+}
