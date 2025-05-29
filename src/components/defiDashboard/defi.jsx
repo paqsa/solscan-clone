@@ -13,6 +13,10 @@ export default function defiDashboard() {
                     <p>Visit Dashboard</p>
                 </div>
 
+                <div className="defiChart"> 
+
+                </div>
+
 
             </div>
             
