@@ -14,8 +14,11 @@ function App() {
 
   return (
     <div className='mainContent'>
-      <Header></Header>
-      <Explore></Explore>
+
+      <div className='solanaStartContentBackground'>
+        <div className='contentStartOfFirst'>
+          <Header></Header>
+          <Explore></Explore>
 
       <div className='topMarketsContainer'>
         {topMarketsNumber.map((topMarketsNumber) => {
@@ -28,8 +31,11 @@ function App() {
         })}
       </div>
 
+      </div>
+       </div>
       
       <SolanaInformation></SolanaInformation>
+       
     </div>
   )
 }
