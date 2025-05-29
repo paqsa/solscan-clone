@@ -1,5 +1,9 @@
 import "./tokenDash.css";
 import trumpPhoto from "./../../../assets/tokenDashboard/trump.png"
+import UsdcPhoto from "./../../../assets/tokenDashboard/usdc.png"
+import JupiterPhoto from "./../../../assets/tokenDashboard/jupiter.png"
+import WrappedSol from "./../../../assets/tokenDashboard/solana.png"
+import UsdtPhoto from "./../../../assets/tokenDashboard/usdt.png"
 
 export default function tokenDashboard() {
     return (
@@ -28,7 +32,7 @@ export default function tokenDashboard() {
 
                 <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
-                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <img className="imageDashboardToken" src={UsdcPhoto} alt="" />
                         <p>USDC</p>
 
                     </div>
@@ -39,7 +43,7 @@ export default function tokenDashboard() {
 
                 <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
-                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <img className="imageDashboardToken" src={JupiterPhoto} alt="" />
                         <p>Jupiter</p>
 
                     </div>
@@ -50,7 +54,7 @@ export default function tokenDashboard() {
 
                 <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
-                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <img className="imageDashboardToken" src={WrappedSol} alt="" />
                         <p>Wrapped Sol</p>
 
                     </div>
@@ -61,7 +65,7 @@ export default function tokenDashboard() {
 
                 <div className="tokenInfoStyle" style={{display: 'flex', alignItems: 'center'}}>
                     <div style={{display: 'flex', alignItems: 'center', width: '223px'}}>
-                        <img className="imageDashboardToken" src={trumpPhoto} alt="" />
+                        <img className="imageDashboardToken" src={UsdtPhoto} alt="" />
                         <p>USDT</p>
 
                     </div>
