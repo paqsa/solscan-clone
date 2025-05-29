@@ -27,6 +27,10 @@ export default function solanainfo() {
             </div>
             <DefiDashboard></DefiDashboard>
         </div>
+
+        <div className="TPS">
+
+        </div>
         </>
     )
 }
