@@ -19,13 +19,8 @@ const DeFiStackedBarChart = () => {
     datasets: [
       {
         label: 'Protocol A',
-        data: [5.5, 5, 2.8, 3.2, 3.4, 3.6, 3.3, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5],
+        data: [605.5, 605, 432.8, 533.2, 643.4, 543.6, 653.3, 653.5, 653.5, 653.5, 343.5, 543.5, 433.5, 443.5, 553.5, 443.5, 643.5, 543.5, 323.5, 433.5, 433.5, 343.5],
         backgroundColor: '#A2DFF7',
-      },
-      {
-        label: 'Protocol B',
-        data: [1.2, 1.0, 0.9, 1.0, 1.3, 2.1, 3.8, 1.3, 2.1, 2.1, 1.4, 2.1, 4.1, 3.2, 3.1, 2.1, 1.1, 2.1, 2.1, 2.1, 2.1, 2.1,],
-        backgroundColor: '#61C47A',
       },
     ],
   };
@@ -52,7 +47,7 @@ const DeFiStackedBarChart = () => {
         stacked: true,
         ticks: {
           color: 'white',
-          callback: (value) => `${value}B`,
+          callback: (value) => `${value}`,
         },
         grid: { color: '#444' },
       },
