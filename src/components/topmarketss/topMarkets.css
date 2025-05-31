@@ -5,6 +5,8 @@
 .topMarketsContent {
     display: flex;
     align-items: center;
+    background-color: #282828;
+    padding: 7px;
 }
 
 .USDC-SOL {

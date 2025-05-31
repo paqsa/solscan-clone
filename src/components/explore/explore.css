@@ -14,3 +14,12 @@
     border: none;
     border-radius: 9px;
 }
+
+.sponsoredStyle {
+    padding: 15px 0px;
+    font-weight: 600;
+}
+
+.exploreMore {
+    color: rgba(0, 195, 255, 0.623);
+}

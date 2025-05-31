@@ -57,3 +57,8 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
+.topMarketsContainer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
