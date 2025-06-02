@@ -9,7 +9,7 @@ export default function solNetwork() {
 
                 <div className="contentInfo">
                     <div>
-                    <div>
+                    <div style={{display: 'flex'}}>
                         <div>
                             <p>Block Height</p>
                             <p>321276125</p>
