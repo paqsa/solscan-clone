@@ -23,7 +23,7 @@ export default function solNetwork() {
 
                     <hr />
                     
-                    <div>
+                    <div style={{display: 'flex'}}>
                         <div>
                             <p>TPS</p>
                             <p>4,206.11</p>
