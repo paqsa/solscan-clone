@@ -7,7 +7,7 @@ export default function solNetwork() {
                 <p>Network (Transactions)</p>
                 <p>410,922,320,819</p>
 
-                <div className="contentInfo">
+                <div className="contentInfo" style={{padding: '10px', borderRadius: '10px'}}>
                     <div>
                     <div style={{display: 'flex'}}>
                         <div>
